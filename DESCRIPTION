@@ -1,0 +1,23 @@
+Package: TirtAutomation
+Title: Automate the Estimation of Thurstonian IRT models
+Version: 0.0.0.9000
+Authors@R: c(
+    person(given = "Susanne",
+           family = "Frick",
+           role = c("aut","cre"),
+           email = "susanne.frick@uni-mannheim.de",
+           comment = c(ORCID = "0000-0002-2102-9860")),
+    person(given = "Rebekka",
+           family = "Kupffer",
+           role = c("cre"),
+           email = "rebekka.kupffer@uni-landau.de",
+           comment = c(ORCID = "0000–0002–9961–9860")))
+Description: This package helps to automatically create the syntax to estimate Thurstonian IRT models in Mplus and to extract paramter estimates afterwards. 
+Other useful functions for data preparation are included.
+Imports:
+MplusAutomation
+License: see the associated GitHub page
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
