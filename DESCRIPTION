@@ -10,7 +10,7 @@ Authors@R: c(
     person(given = "Rebekka",
            family = "Kupffer",
            role = c("cre"),
-           email = "rebekka.kupffer@uni-landau.de",
+           email = "kupffer@uni-landau.de",
            comment = c(ORCID = "0000–0002–9961–9860")))
 Description: This package helps to automatically create the syntax to estimate Thurstonian IRT models in Mplus and to extract paramter estimates afterwards. Other useful functions for data preparation are included.
 Imports: MplusAutomation
