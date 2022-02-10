@@ -1,4 +1,4 @@
-#' tirt.mplus.syntax
+#' tirtMplusSyntax
 #'
 #' Function to create Mplus syntax for TIRT (only for blocks of 3 items, full ranking,
 #' assumes items are ordered blockwise)
@@ -23,7 +23,7 @@
 #'
 #' @export
 #'
-tirt.mplus.syntax <- function(design.load, names.pairs, item.short, id.var, file.inp=NULL, file.data, title, out.command, fscores.file, missings.as) {
+tirtMplusSyntax <- function(design.load, names.pairs, item.short, id.var, file.inp=NULL, file.data, title, out.command, fscores.file, missings.as) {
 
   #syntax elements are first created seperately, converted to characters, name: ch.(...)
   #lines are seperated by \n (= new line)
