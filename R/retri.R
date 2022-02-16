@@ -8,7 +8,7 @@
 #' @return data frame with binary coded data
 #' @export
 #'
-retri <- function(df, fbname){
+reTri <- function(df, fbname){
   spalte <- seq(1,ncol(df), by=3)
   out <- data.frame(matrix(NA, nrow = nrow(df), ncol = ncol(df)))
   colnames(out) <- paste0("b.",fbname,".",c(1:ncol(df)))
