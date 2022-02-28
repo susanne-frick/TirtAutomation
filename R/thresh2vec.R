@@ -1,5 +1,3 @@
-# Thresholds aus Mplus auslesen und in einem Vektor abspeichern
-
 #' thresh2vec
 #'
 #' TIRT-thresholds from Mplus output to vector
