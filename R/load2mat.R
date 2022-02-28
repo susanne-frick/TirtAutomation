@@ -7,6 +7,7 @@
 #' @param design.mat MFC design matrix: rows = pairwise comparisons, columns = items
 #'
 #' @return loading matrix with Mplus estimates: rows = items, columns = traits
+#' @export
 #'
 #'
 load2mat <- function(mplus.pars, design.load, design.mat) {
