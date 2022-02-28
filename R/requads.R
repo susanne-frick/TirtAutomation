@@ -79,13 +79,6 @@ reQuads <- function(df, fbname){
   out
 }
 
-df <- data.frame(A1 = c(1, NA), B1 = c(NA, NA), C1 = c(2, NA), D1 = c(NA, NA),
-                 A2 = c(2, NA), B2 = c(NA, 1), C2 = c(1, NA), D2 = c(NA, 2))
-
-test <- requads(df = df, fbname = "tee")
-df
-test
 
 
 
-#end
