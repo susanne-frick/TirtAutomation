@@ -11,10 +11,12 @@
 #' @param df degrees of freedom
 #' @param N sample size
 #'
-#' @return corrected RMSEA
+#' @return cRmsea
+#' @export
 #'
 correctRmsea <- function(n, p, chisq, df, N){
   r <- n*(n-1)*(n-2)/6
   df_corrected <- df-(p*r)
-  sqrt((chisq-df_corrected)/(df_corrected*N-1))
+  cRmsea <- sqrt((chisq-df_corrected)/(df_corrected*N-1))
+  cRmsea
 }

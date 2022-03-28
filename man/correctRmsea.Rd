@@ -18,7 +18,7 @@ correctRmsea(n, p, chisq, df, N)
 \item{N}{sample size}
 }
 \value{
-corrected RMSEA
+cRmsea
 }
 \description{
 In questionnaires with block size n > 2, the degrees of freedom need to
